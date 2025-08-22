@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>For Huda ❤️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="particles" id="particles" aria-hidden="true"></div>
+
+  <div class="section" id="intro">
+    <h1 class="glow">Hi Huda 💕</h1>
+    <h3>Since 22 April 2025, something changed forever - I saw you for the first time ✨</h3>
+  </div>
+
+  <div class="section" id="about">
+    <h2>💖 About You</h2>
+    <p>Huda, you are honestly one of the most beautiful people I’ve ever come across, not just in how you look, but in the way you carry yourself. There’s something magical in your smile, something that makes time pause for a second ✨.</p>
+  </div>
+
+  <div class="section" id="admire">
+    <h2>💌 Things I Admire About You</h2>
+    <div class="hearts" id="heartsContainer" aria-live="polite">
+      <div class="heart-container">
+        <button class="heart-btn" onclick="showReason(this, 'Whenever you call, the whole vibe changes — you bring a certain energy.')" aria-label="Reason 1">❤️</button>
+        <div class="reason-popup"></div>
+      </div>
+      <div class="heart-container">
+        <button class="heart-btn" onclick="showReason(this, 'Your smile is one of the brightest things I’ve ever seen — it really makes the day better.')" aria-label="Reason 2">💕</button>
+        <div class="reason-popup"></div>
+      </div>
+      <div class="heart-container">
+        <button class="heart-btn" onclick="showReason(this, 'Sometimes I catch myself replaying little moments of you in my head — it feels unreal.')" aria-label="Reason 3">💖</button>
+        <div class="reason-popup"></div>
+      </div>
+      <div class="heart-container">
+        <button class="heart-btn" onclick="showReason(this, 'There’s something about your presence that feels different — like it was meant to inspire.')" aria-label="Reason 4">💝</button>
+        <div class="reason-popup"></div>
+      </div>
+      <div class="heart-container">
+        <button class="heart-btn" onclick="showReason(this, 'Your voice has this calmness that lingers even after the conversation ends.')" aria-label="Reason 5">💓</button>
+        <div class="reason-popup"></div>
+      </div>
+      <div class="heart-container">
+        <button class="heart-btn" onclick="showReason(this, 'Being around you in my dreams feels like a reminder that little moments can be the most special.')" aria-label="Reason 6">💗</button>
+        <div class="reason-popup"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section" id="gallerySection">
+    <h2>📸 My Beautiful Moments</h2>
+    <div class="gallery-container">
+      <div class="photo">
+        <img src="images/H1.jpg" alt="Our memory 1">
+        <small>📷 Maybe one day, this picture will click by me.</small>
+      </div>
+      <div class="photo">
+        <img src="images/H2.png" alt="Our memory 2">
+        <small>🌟 Every little moment matters</small>
+      </div>
+      <div class="photo">
+        <img src="images/H3.png" alt="Our memory 3">
+        <small>💫 Sometimes, I want to look into your eyes.</small>
+      </div>
+    </div>
+  </div>
+
+  <div class="section final" id="final">
+    <div class="floating-heart">❤️</div>
+    <button class="secret-btn" onclick="revealLetter()">Unlock My Secret ✨</button>
+    <div id="loveLetter" class="love-letter">
+      <strong>Dear Huda,</strong><br /><br />
+      I don’t know if you’ve ever noticed, but you have this rare way of making everything around you feel brighter. It’s like you’re carrying a little universe of your own, and anyone who crosses paths with you can feel it. <br /><br />
+      Maybe you’ll never know how much you’ve inspired me, or how often I find myself smiling just because of something you said or the way you laughed. But I hope one day, you do. <br /><br />
+      <em>(Maybe this is more than just admiration… 👀)</em><br /><br />
+      <strong>Sincerely,<br />Meer Murtuza</strong>
+    </div>
+  </div>
+
+  <footer>
+    <p>Made with infinite ❤️ by <strong>Meer Murtuza</strong></p>
+  </footer>
+
+  <noscript>
+    <style>
+      .section { opacity: 1 !important; transform: none !important; }
+      .reason-popup { display: none; }
+    </style>
+  </noscript>
+
+  <script src="script.js"></script>
+</body>
+</html>
